@@ -24,4 +24,15 @@ contract Types {
       return data;
     }
     
+    //do-while loop
+    uint x;
+    function doLoop(
+    ) public returns(uint[] memory){
+    do{
+        x++;
+        data.push(x);
+     }while(x < 5) ;
+      return data;
+    }
+    
     }
